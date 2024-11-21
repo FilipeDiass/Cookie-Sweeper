@@ -1,0 +1,81 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+	text-align: center;
+	background-color: black;
+}
+
+body {
+	width: 300px;
+	padding: 20px;
+}
+
+main {
+	width: 100%;
+	margin-top: 20px;
+}
+
+div.containerInputs {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	gap: 10px;
+}
+div.containerInputs > div {
+	display: flex;
+	width: 100%;
+	gap: 5px;
+}
+
+div.containerInputs input {
+	width: 85%;
+	height: 30px;
+	padding: 5px;
+	outline: none;
+	border-radius: 4px;
+	border: 1px solid white;
+	text-align: start;
+}
+div.containerInputs button {
+	display: flex;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 4px;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+div.containerButtons {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	gap: 5px;
+	margin-top: 20px;
+}
+div.containerButtons > button {
+	width: 85%;
+	height: 30px;
+	border: none;
+	border-radius: 4px;
+	background-color: white;
+	color: black;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+div.containerButtons > button.btnAdd {
+	display: flex;
+	flex-grow: 1 !important;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+}
+
+button:hover {
+	background-color: whitesmoke !important;
+}
