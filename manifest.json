@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "Cookie Sweeper",
+	"name": "Storage-Sweeper",
 	"version": "1.0",
 	"background": {
 		"service_worker": "background.js"
@@ -14,6 +14,6 @@
 		"48": "images/icon-48.png",
 		"128": "images/icon-128.png"
 	},
-	"permissions": ["storage", "cookies", "webNavigation", "scripting"],
+	"permissions": ["storage", "webNavigation", "scripting"],
 	"host_permissions": ["https://*/*"]
 }
