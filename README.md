@@ -1,2 +1,2 @@
-# Cookie-Sweeper
+# Storage-Sweeper
 Remove cookies and cache
