@@ -1,2 +1,2 @@
 # Storage-Sweeper
-Remove cookies and cache
+Clears the local storage of a specified site whenever it is accessed or reloaded.
